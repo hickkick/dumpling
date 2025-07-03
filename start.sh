@@ -15,4 +15,4 @@ echo "🌐 Setting Telegram webhook..."
 ruby set_webhook.rb
 
 echo "🚀 Starting app..."
-bundle exec rackup config.ru -p $PORT
+bundle exec rackup config.ru -o 0.0.0.0 -p ${PORT:-9292}
