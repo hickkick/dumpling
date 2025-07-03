@@ -15,4 +15,4 @@ echo "🌐 Setting Telegram webhook..."
 ruby set_webhook.rb
 
 echo "🚀 Starting app..."
-rackup config.ru -p $PORT
+bundle exec rackup config.ru -p $PORT

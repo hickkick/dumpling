@@ -40,8 +40,13 @@ GEM
     multipart-post (2.4.1)
     net-http (0.6.0)
       uri
+    nio4r (2.7.4)
     pg (1.5.9)
+    puma (6.6.0)
+      nio4r (~> 2.0)
     rack (3.1.16)
+    rackup (2.2.1)
+      rack (>= 3)
     roda (3.93.0)
       rack
     sequel (5.93.0)
@@ -64,6 +69,9 @@ DEPENDENCIES
   logger
   net-http
   pg
+  puma
+  rack
+  rackup
   roda
   sequel
   telegram-bot-ruby
