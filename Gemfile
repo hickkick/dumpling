@@ -1,0 +1,12 @@
+source 'https://rubygems.org'
+
+ruby '3.4.1'
+gem 'roda'
+gem 'sequel'
+gem 'pg'             
+gem 'dotenv'
+gem 'telegram-bot-ruby'
+gem 'json'
+gem 'logger'
+gem 'uri'
+gem 'net-http'
