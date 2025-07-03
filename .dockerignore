@@ -1,0 +1,7 @@
+.git
+log/
+tmp/
+*.sqlite3
+*.env
+node_modules
+.bundle
